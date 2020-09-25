@@ -18,7 +18,7 @@ export default function Landing() {
 }';
 const [currentKaomoji, setCurrentKaomoji] = useState("___________")
 useEffect(() => {
-  fetch('/api/getKaomoji/joy')
+  fetch('/api/getKaomoji')
   .then(response => response.json())
   .then(data => setCurrentKaomoji(data["kaomoji"]));
 }, [])
