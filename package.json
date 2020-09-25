@@ -7,10 +7,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/ui": "^0.6.2",
     "cors": "2.8.5",
     "next": "latest",
+    "postcss-preset-env": "^6.7.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-syntax-highlighter": "^13.5.3",
+    "tailwindcss": "^1.8.10",
+    "use-clipboard-copy": "^0.1.2"
   },
   "license": "MIT"
 }
